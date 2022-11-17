@@ -1,0 +1,20 @@
+{
+    "name": "3x1io/laravel-auth-builder",
+    "description": "Build Multi Auth API system very easy by just 1 line code",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "io3x1\\LaravelAuthBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "EngFadyMondy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "laravel/sanctum": "^2.8"
+    }
+}
