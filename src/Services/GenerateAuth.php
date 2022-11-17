@@ -69,7 +69,7 @@ class GenerateAuth
             "loginType" => $this->loginType,
             "model" => $this->model,
             "guard" => $this->guard,
-            "otp" => $this->checkOTP,
+            "otp" => $this->checkOTP ? "true" : "false",
             "loginByValidationCreate" => $loginByValidationCreate,
             "loginByValidationUpdate" => $loginByValidationUpdate,
         ]);
