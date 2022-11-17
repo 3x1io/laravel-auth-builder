@@ -16,5 +16,12 @@
     "require": {
         "php": "^8.0.2",
         "laravel/sanctum": "^2.8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "io3x1\\LaravelAuthBuilder\\LaravelAuthBuilderProvider"
+            ]
+        }
     }
 }
