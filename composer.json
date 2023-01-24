@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": "^8.0.2",
-        "laravel/sanctum": "^2.8"
+        "laravel/sanctum": "^3.0"
     },
     "extra": {
         "laravel": {
